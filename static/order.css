@@ -1,0 +1,10 @@
+#services::before{
+    content: "";
+    background-image: url(pexels-ella-olsson-1640777.jpg);
+    background-size: cover;
+    position: absolute;
+    height:105%;
+    width:100%;
+    opacity: 0.3;
+    z-index: -1;
+}

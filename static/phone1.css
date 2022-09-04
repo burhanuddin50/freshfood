@@ -1,0 +1,33 @@
+#home h1{
+    font-size: 2rem;
+}
+#home p{
+    font-size: 1rem;
+}
+.content{
+    flex-direction: column;
+}
+.navbar{
+    flex-direction: column;
+
+}
+#home::after{
+      margin-bottom: 67px;
+      height: 64%;
+}
+.cbox input{
+    width: 265px;
+}
+.contact::before{
+    height: 28.0%;
+}
+.c1 img{
+    width: 200px;
+}
+.company{
+    margin: 0px;
+    padding: 0px;
+}
+.gt{
+    margin: 0px;
+}

@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.test {
+    top: 10000000px;
+}
+.navbar{
+    
+    display: flex;
+    
+    align-items: center;
+    /* background-color: black ; */
+    position: relative;
+}
+.navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height:100%;
+    width:100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+.navbar img{
+    margin: 8px 8px;
+    padding: 2px 2px;
+    width: 69px;
+    height: 69px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.item {
+    display: flex;
+    margin: 5px 20px ;
+    padding:5px 8px ;
+    
+}
+
+.item a{
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+.item a:hover{
+    background-color: white;
+    color: black;
+}
+#home{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 199px;
+    
+    
+}
+#home p{
+    color: #065793;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#home h1{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    font-size: 5rem;
+    font-family: 'Smooch', cursive;
+    font-weight: 200;
+    color: #426019;
+
+}
+#home::after{
+    content: "";
+    background-image: url(pexels-ella-olsson-1640777.jpg);
+    background-size: cover;
+    position: absolute;
+    height:50%;
+    width:100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+#home button{
+    box-sizing: border-box;
+    font-size: large;
+    border-radius: 10px;
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 5px;
+    position: ;
+    top:;
+    cursor: pointer;
+}
+#home button a{
+    text-decoration: none;
+}
+.yt{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 3rem;
+    color: #94870e;
+
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+   
+    margin: 5px;
+    padding: 2px;
+}
+.c1{
+    border: 2px solid red;
+    background-color: antiquewhite;
+    margin:10px;
+    padding:2px;
+    text-align: center;
+}
+.c1 img{
+    width:400px;
+}
+.my{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.company{
+    padding: 7px;
+    margin: 7px;
+}
+.company img{
+    width: 100px;
+}
+#partners::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    background-image: url(pexels-fox-212323.jpg);
+    background-size: cover;
+    z-index: 0;
+    opacity: 0.5;
+}
+.cbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+}
+#contact::before{
+         content: "";
+         background-image: url(istockphoto-1311934969-170667a.jpg);
+         height: 29.5%;
+         width: 100%;
+         background-size: cover;
+         position: absolute;
+         opacity: 0.8;
+         z-index: -1;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.gt{
+    margin: 5px;
+}
+.cbox button{
+    border-radius: 5px;
+    width: 90px;
+    height: 32px;
+    color: blue;
+}
+.cbox input{
+    width: 660px;
+    border-radius: 4px;
+}
+#fix{
+    overflow: visible;
+    position: sticky;
+    width: 100%;;
+    
+}

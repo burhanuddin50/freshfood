@@ -1,0 +1,11 @@
+.content{
+    flex-direction: column;
+}
+.navbar{
+    flex-direction: column;
+
+}
+#home::after{
+      margin-bottom: 67px;
+      height: 59%;
+}
